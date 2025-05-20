@@ -1,0 +1,58 @@
+{
+    "categories": [
+      {"id": 1, "name": "CDs"},
+      {"id": 2, "name": "Vinil"},
+      {"id": 3, "name": "Camisetas"},
+      {"id": 4, "name": "Acessórios"}
+    ],
+    "products": [
+      {
+        "id": 1,
+        "name": "Álbum 'Escândalo Íntimo' (CD)",
+        "price": 39.90,
+        "category": 1,
+        "description": "O mais recente álbum da Luísa Sonza com 15 faixas, incluindo hits como 'Campari' e 'Principalmente Me Sinto Arrasada'.",
+        "image": "escandalointimo.jpg"
+      },
+      {
+        "id": 2,
+        "name": "Álbum 'Escândalo Íntimo' (Vinil)",
+        "price": 129.90,
+        "category": 2,
+        "description": "Edição limitada em vinil duplo 180g com fotos exclusivas e encarte especial.",
+        "image": "vinilescandalo.png"
+      },
+      {
+        "id": 3,
+        "name": "Camiseta 'Sonza' Preta",
+        "price": 89.90,
+        "category": 3,
+        "description": "Camiseta 100% algodão com estampa frontal do nome 'Sonza' em glitter vermelho.",
+        "image": "tshirt.webp"
+      },
+      {
+        "id": 4,
+        "name": "Pôster Autografado",
+        "price": 59.90,
+        "category": 4,
+        "description": "Pôster 40x60cm do álbum 'Escândalo Íntimo' autografado pela Luísa Sonza (edição limitada).",
+        "image": "poster.jpg"
+      },
+      {
+        "id": 5,
+        "name": "Álbum 'Doce 22' (CD)",
+        "price": 29.90,
+        "category": 1,
+        "description": "Álbum anterior da artista com sucessos como 'Cachorrinhas' e 'Anaconda'.",
+        "image": "doce22.jpg"
+      },
+      {
+        "id": 6,
+        "name": "Boné 'LS' Vermelho",
+        "price": 69.90,
+        "category": 4,
+        "description": "Boné ajustável com logo 'LS' bordado em detalhes prateados.",
+        "image": "bone.png"
+      }
+    ]
+  }

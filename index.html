@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loja Oficial - Luísa Sonza</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Luísa Sonza - Loja Oficial</h1>
+    </header>
+
+    <main>
+        <section class="filters">
+            <h2>Produtos</h2>
+            <div class="filter-controls">
+                <label for="category-filter">Filtrar por categoria:</label>
+                <select id="category-filter">
+                    <option value="all">Todos os produtos</option>
+                </select>
+            </div>
+        </section>
+
+        <section class="products-grid" id="products-container">
+            <!-- Produtos serão carregados dinamicamente via JavaScript -->
+        </section>
+
+        <section class="calculator">
+            <h2>Calcular Valor</h2>
+            <form id="price-calculator">
+                <div class="form-group">
+                    <label for="product-select">Selecione o produto:</label>
+                    <select id="product-select" required>
+                        <option value="">-- Selecione --</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="quantity">Quantidade:</label>
+                    <input type="number" id="quantity" min="1" value="1" required>
+                </div>
+                <button type="submit">Calcular</button>
+                <div class="total-price" id="total-price">
+                    Total: R$ 0,00
+                </div>
+            </form>
+        </section>
+    </main>
+
+    <!-- Lightbox -->
+    <div class="lightbox" id="lightbox">
+        <div class="lightbox-content">
+            <span class="close-lightbox">&times;</span>
+            <img id="lightbox-image" src="" alt="Produto">
+            <div class="lightbox-details">
+                <h2 id="lightbox-title"></h2>
+                <p id="lightbox-price"></p>
+                <p id="lightbox-description"></p>
+            </div>
+        </div>
+    </div>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
